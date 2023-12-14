@@ -1,3 +1,11 @@
-const Header = () => <header>HEADER</header>
+import Logo from 'components/logo'
+import Nav from 'components/nav'
 
-export default Header
+export default function Header () {
+  return (
+    <header>
+      <Logo />
+      <Nav />
+    </header>
+  )
+}
